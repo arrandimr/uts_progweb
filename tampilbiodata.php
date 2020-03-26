@@ -15,9 +15,6 @@
 					<a href="pengumuman.php">pengumuman</a>
 				</li>
 				<li>
-					<a href="struktur.php">Alur Pendaftaran</a>
-				</li>
-				<li>
 					<a href="login.php">login</a>
 				</li>
 				<li>
