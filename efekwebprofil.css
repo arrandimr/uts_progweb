@@ -1,0 +1,204 @@
+body {
+	background-image: url("bg.png");
+	background-size: 100%;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		
+ 
+header{
+	padding-top: 15px;
+	text-align: center;
+	color:#051425;
+}
+ 
+header .judul{
+	font-size: 24pt;
+}
+ 
+header .deskripsi{
+	font-size: 11pt;
+}
+ 
+.wrap {
+	width: 1200px;
+	margin:15px auto;
+}
+.wrap img{
+	padding-top: 50px;
+}
+
+nav.menu{
+	background:#1B1B1B;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	height: 60px;
+	font-weight: bold;
+		
+}
+nav.menu img {
+	float: left;
+	align: left;
+	padding-top: 15px;
+	padding-left: 40px;
+	
+}
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float: center;
+	padding-left:300px;
+	padding:inherit;
+	width: 1300px;
+	margin:0 0 0;
+	background: transparent;
+}
+ 
+nav.menu ul li {
+	margin:0;
+	padding-right: 0px;
+	float:right;
+}
+ 
+nav.menu ul a {
+	padding:20px;
+	display :block;
+	font-weight:700;
+	font-size: 13px;
+	color:#FFFFFF;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+nav.menu ul a:hover {
+	background:transparent;
+	color:#4067D0;
+	font-weight: 700;
+	border-bottom: 1.5px solid #4067D0;
+}
+ 
+
+.isian {
+	width:300px;
+	float: right;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+.biodata{
+	width:1000px;
+	float: center;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+.login {
+	width:400px;
+	float: center;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+.login .selanjutnya {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+.login .selanjutnya:hover {
+	margin-left:10px;
+}
+ 
+.isian img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+ 
+.isian h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+ 
+.isian p:last-child {
+	margin: 0;
+}
+ 
+.isian .selanjutnya {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+ 
+.isian .selanjutnya:hover {
+	margin-left:10px;
+}
+ 
+.infopemilik {
+	float: right;
+	font-size: 12px;
+	margin: -10px 0 15px;
+	text-transform: uppercase;
+}
+
+.gayatabel 
+	th {
+		color: #ffffff; 
+		background-color: #1EADCD; 
+		border-width: 0px; 
+		font-size: 9pt;
+		text-transform: uppercase;
+}
+	td {
+		font-family: georgia;
+		font-weight: bold;
+		color: black; 
+		background-color: none; 
+		border-width: 0px; 
+		font-size: 10pt;
+}
+
+
+input.text {
+	width: 260px;
+}
+
+input.submit {
+	width: 100px;
+	height: 30px;
+}
+
+h3 {
+	padding-left: 50px;
+	color: white;
+	background-color: #1B1B1B;
+}
+
+h2{
+	font-family: georgia;
+	text-transform: uppercase;
+}
