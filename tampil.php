@@ -7,6 +7,7 @@
 </head>
 
 	<body>
+		<form method="post" action="tampil.php">
 		<nav class="menu" align="center">
 			<a href="home.php"><img src="Tak_Punya_E-_KTP_Tak_Bisa_Nyoblos_Pilkada_Ini_Jawaban_Dinas_Kependudukanz3E.png" height="30px"></a><ul>
 				<li>
@@ -43,7 +44,7 @@
 	if (!$conn){
 	die("Connection failed : " . mysqli_connect_error());
 	}
-	$sql = "select * from login where username='".$_POST['username']."';";
+	$sql = "select * from login where username='".$_POST['username']."' and password='".$_POST['password']."';";
 	$result = mysqli_query($conn, $sql);
 	if (mysqli_num_rows($result)>0){
 		
